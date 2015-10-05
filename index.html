@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FB Pages</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Manage your facebook pages</h1>
+        <button onclick="viewFavorites();">View my favorite pages</button>
+        <form id="searchPageByKeyword">
+            <input type="text" id="idSearchKeyword"/>
+        </form>
+        <div>
+            <div id="containerList">
+                <div id="pageList"></div>
+                <button onclick="getMorePages();" style="display: none;" id="moreButton">More</button>
+            </div>
+            <div id="detailFeeds"></div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>

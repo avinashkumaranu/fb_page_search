@@ -1,0 +1,15 @@
+#detailFeeds {
+    float: right;
+    width: 50%;
+}
+#containerList {
+    float: left;
+    width: 50%;
+}
+#moreButton {
+    float: left;
+}
+.hoverCursor:hover {
+    cursor: pointer;
+    cursor: hand;
+}
