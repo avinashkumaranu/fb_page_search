@@ -13,3 +13,98 @@
     cursor: pointer;
     cursor: hand;
 }
+li {
+    font-family: 'Segoe UI';
+}
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 4vh;
+    color: antiquewhite;
+    margin-left: 6vw;
+}
+header {
+    background-color: crimson;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    z-index: 100;
+}
+#searchPageByKeyword {
+    width: 200px;;
+    position: absolute;
+    top: 3.5vh;
+    right: 100px;
+}
+input {
+    width: 185px;
+    border-radius: 0px;
+    height: 4vh;
+    padding-left: 10px;
+}
+.content {
+    position: absolute;
+    top: 15vh;
+    height: auto;
+}
+#favBut {
+    position: absolute;
+    right: 100px;
+}
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+    #favBut {
+        position: relative;
+        right: auto;
+    }
+    h1 {
+        font-size: 3.5vh;
+        margin-left: 0;
+        width: 100vw;
+        text-align: center;
+    }
+    header {
+        height: 10vh;
+    }
+    #searchPageByKeyword {
+        position: absolute;
+        width: 100vw;
+        background-color: white;
+        top: 10vh;
+        right: 0;
+        padding-bottom: 1vh;
+    }
+    input {
+        margin-top: 1vh;
+        margin-left: 4vw;
+        width: 90vw;
+        left: 5vw;
+        border-radius: 0px;
+        height: 3.5vh;
+        padding-left: 5px;
+    }
+    .content {
+        top: 17vh;
+    }
+    button {
+        width: 90vw;
+        left: 3vw;
+        height: 5vh;
+        position: relative;
+    }
+    .containers {
+        position: relative;
+        width: 100%;
+    }
+    #detailFeeds {
+        float: right;
+        width: 100%;
+    }
+    #containerList {
+        float: left;
+        width: 100%;
+    }
+}
